@@ -1,0 +1,57 @@
+body {
+    
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(to bottom, #8f11e2, #c7b1a3,rgb(96, 20, 219));
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+    .form-container {
+        background: rgba(3, 15, 15, 0.95);
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        text-align: center;
+        padding: 30px;
+        width: 360px;
+    }
+    .form-container h2 {
+        margin-bottom: 20px;
+        color: #c2e1f7;
+    }
+    .form-container input, select {
+        width: 100%;
+        padding: 4px;
+        margin: 5px 0;
+        border: 3px solid #f30909;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+    .form-container input[type="submit"] {
+        background-color: #040f12;
+        color: rgb(43, 148, 196);
+        cursor: pointer;
+        font-weight: bold;
+    }
+    .toggle-button {
+        background-color: #11beed;
+        color: rgb(251, 238, 238);
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    .password-container {
+        position: relative;
+    }
+    .password-toggle {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }  
+

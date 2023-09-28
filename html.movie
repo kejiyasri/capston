@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TheMovieDB Search</title>
+</head>
+<body>
+    <div class="wrapper">
+      <div class="search-block">
+        <a href="/">
+          <h1>TheMovieDB</h1>
+        </a>
+        <form id="search-form">
+          <input type="text" id="query" placeholder="Search movies..." />
+          <input type="text" id="director" placeholder="Director..." />
+          <button class="btn" type="submit">Search</button>
+        </form>
+      </div>
+      <div class="row" id="root"></div>
+    </div>
